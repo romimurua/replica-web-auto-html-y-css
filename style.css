@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+header img {
+    height: 100%;
+}
+
+main {
+    background-color: rgb(3, 3, 128);
+    width: 100%;
+    min-height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+nav {
+    width: 20%;
+    min-height: 65vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+
+nav a {
+    width: 100%;
+    
+    text-align: center;
+    text-decoration: none;
+    color: beige;
+    
+    
+}
+
+.active {
+
+    background-color: blue;
+
+}
+
+div {
+    min-width: 10%;
+    min-height: 30%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.uno, .dos, .tres {
+    width: 12%;
+    height: 15rem;
+    margin: 5rem;
+ 
+}
+
+div img {
+    width: 100%;
+    height: 50%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+
+
+div p {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+ul {
+    width: 100%;
+    height: 10%;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+footer {
+    width: 100%;
+    min-height: 15vh;
+    background-color: rgb(138, 138, 138);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+footer a {
+    color: black;
+    font-style: italic;
+    width: 10%;
+}
+
+
+
+@media (min-width: 320px) {
+
+    header {
+        width: 100%;
+        height: 20vh;
+        background-color: rgb(240, 240, 240);
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    
+    header img {
+        height: 70%;
+    }
+    
+    main {
+        background-color: rgb(3, 3, 128);
+        width: 100%;
+        min-height: 65vh;
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    
+    nav {
+        width: 100%;
+        min-height: 15vh;
+        
+    }
+    
+    
+    div {
+        min-width: 50%;
+        min-height: 50%;
+    
+    }
+
+    footer {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media (min-width: 768px) {
+
+    div {
+        min-width: 30%;
+        min-height: 90%;
+    
+    }
+    
+}
+
+
+
+@media (min-width: 1024px) {
+
+    header {
+        width: 100%;
+        height: 20vh;
+        background-color: rgb(240, 240, 240);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+ 
+    }
+    
+    main {
+        height: 65vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    nav {
+        width: 20%;
+        min-height: 65vh;
+
+    }    
+
+    div {
+        min-width: 12%;
+        min-height: 20rem;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .uno, .dos, .tres {
+        width: 10%;
+        height: 20rem;
+        margin: 5rem;
+     
+    }
+
+    footer {
+
+    display: flex;
+    flex-direction: row;
+}
+
+}
